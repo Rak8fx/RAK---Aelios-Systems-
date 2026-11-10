@@ -1,50 +1,64 @@
-<!-- HEADER BANNER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:A855F7&height=200&section=header&text=Hey%20👋%20I'm%20RAK&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="header"/>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,30&height=200&section=header&text=Rak8fx&fontSize=70&fontColor=ffffff&animation=twinkle" width="100%" />
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Hey%2C+I%27m+RAK+👋;Building+Cool+Projects+🚀;Always+Learning+New+Things;Welcome+to+my+Profile!👇" alt="Typing SVG" /></a>
 </p>
 
-<!-- ANIMATED TYPING TEXT -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Welcome+to+my+GitHub+Profile!;Passionate+Developer+%F0%9F%92%BB;Building+Awesome+Projects!+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://komarev.com/ghpvc/?username=Rak8fx&style=flat-square&color=0EA5E9" alt="views"/>
+  <img src="https://img.shields.io/github/followers/Rak8fx?style=flat-square&color=0EA5E9&label=Followers" alt="followers"/>
 </p>
 
-<br/>
+<h2 align="center">👨‍💻 About Me</h2>
 
-<!-- TECH STACK BADGES (100% Bulletproof - Φορτώνουν ΠΑΝΤΑ) -->
-<h3 align="center">⚡ Tech & Tools</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+🌍 Based in Greece 🇬🇷<br>
+🚀 Passionate about Coding & Building Projects<br>
+🌱 Currently learning & improving my skills every day<br>
+⚡ Fun fact: <b>I turn ideas into code ☕</b>
 </p>
 
-<br/>
-
-<!-- STREAK STATS (Επιβεβαιωμένο ότι δουλεύει στο κινητό σου!) -->
-<h3 align="center">🔥 GitHub Activity</h3>
+<h2 align="center">🛠️ Tech Stack</h2>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Rak8fx&theme=tokyonight&hide_border=true" width="90%" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,git,github,vscode,docker&theme=dark" />
+  </a>
 </p>
 
-<br/>
-
-<!-- GITHUB STATS & LANGUAGES -->
+<h2 align="center">📊 GitHub Stats</h2>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rak8fx&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rak8fx&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rak8fx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true" alt="stats"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=Rak8fx&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FF652E&currStreakLabel=38BDF8" alt="streak"/>
 </p>
 
-<br/>
-
-<!-- PROFILE VIEWS COUNTER -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rak8fx&color=0ea5e9&style=for-the-badge&label=PROFILE+VIEWS" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rak8fx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="langs"/>
 </p>
 
-<!-- FOOTER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,30&height=100&section=footer" width="100%" />
+  <img width="90%" src="https://github-profile-trophy.vercel.app/?username=Rak8fx&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophy"/>
 </p>
+
+<h2 align="center">📈 Activity Graph</h2>
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rak8fx&theme=tokyo-night&bg_color=0D1117&hide_border=true&color=38BDF8&line=A855F7&point=FFFFFF&area=true" alt="activity"/>
+</p>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote"/>
+</p>
+
+<h2 align="center">🤝 Connect With Me</h2>
+<p align="center">
+  <a href="https://github.com/Rak8fx"><img src="https://img.shields.io/badge/GitHub-Rak8fx-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake.svg" />
+    <img alt="snake" src="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:0EA5E9&height=120&section=footer" alt="footer"/>
