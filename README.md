@@ -1,64 +1,54 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:A855F7&height=200&section=header&text=Hey%20👋%20I'm%20RAK&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="header"/>
+<div align="center">
+  <!-- ΤΟ CUSTOM ANIMATED SVG BANNER ΤΟΥ RAK -->
+  <img src="./hero.svg" alt="RAK Hero Banner" width="100%" />
+</div>
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Hey%2C+I%27m+RAK+👋;Building+Cool+Projects+🚀;Always+Learning+New+Things;Welcome+to+my+Profile!👇" alt="Typing SVG" /></a>
-</p>
+<br />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rak8fx&style=flat-square&color=0EA5E9" alt="views"/>
-  <img src="https://img.shields.io/github/followers/Rak8fx?style=flat-square&color=0EA5E9&label=Followers" alt="followers"/>
-</p>
+<!-- ΕΦΕ ΠΛΗΚΤΡΟΛΟΓΗΣΗΣ (TYPING ANIMATION) -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=Welcome+to+RAK's+Digital+Space+%F0%9F%9A%80;Turning+complex+problems+into+clean+code;Always+learning%2C+always+building+%E2%9A%A1" alt="Typing SVG" />
+</div>
 
-<h2 align="center">👨‍💻 About Me</h2>
-
-<p align="center">
-🌍 Based in Greece 🇬🇷<br>
-🚀 Passionate about Coding & Building Projects<br>
-🌱 Currently learning & improving my skills every day<br>
-⚡ Fun fact: <b>I turn ideas into code ☕</b>
-</p>
-
-<h2 align="center">🛠️ Tech Stack</h2>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,git,github,vscode,docker&theme=dark" />
+<!-- BADGES & VIEWS -->
+<div align="center">
+  <a href="https://github.com/Rak8fx">
+    <img src="https://img.shields.io/github/followers/Rak8fx?label=Followers&style=for-the-badge&color=f093fb&logo=github" alt="Followers" />
   </a>
-</p>
+  <img src="https://komarev.com/ghpvc/?username=Rak8fx&label=Profile%20Views&color=00f2fe&style=for-the-badge" alt="Profile Views" />
+</div>
 
-<h2 align="center">📊 GitHub Stats</h2>
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rak8fx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&count_private=true" alt="stats"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=Rak8fx&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=FF652E&currStreakLabel=38BDF8" alt="streak"/>
-</p>
+<br />
+<hr />
 
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rak8fx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="langs"/>
-</p>
+<h3 align="center">⚡ Tech Stack & Εργαλεία</h3>
 
-<p align="center">
-  <img width="90%" src="https://github-profile-trophy.vercel.app/?username=Rak8fx&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="trophy"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,git,github,docker,vscode&theme=dark&perline=6" alt="Tech Stack" />
+</div>
 
-<h2 align="center">📈 Activity Graph</h2>
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rak8fx&theme=tokyo-night&bg_color=0D1117&hide_border=true&color=38BDF8&line=A855F7&point=FFFFFF&area=true" alt="activity"/>
-</p>
+<br />
+<hr />
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="quote"/>
-</p>
+<h3 align="center">📊 Rak8fx's GitHub Analytics</h3>
 
-<h2 align="center">🤝 Connect With Me</h2>
-<p align="center">
-  <a href="https://github.com/Rak8fx"><img src="https://img.shields.io/badge/GitHub-Rak8fx-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rak8fx&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=090d16&title_color=00f2fe&icon_color=f093fb" alt="Rak8fx Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rak8fx&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=00f2fe" alt="Top Languages" />
+</div>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/Rak8fx/Rak8fx/output/github-snake-dark.svg" />
-  </picture>
-</p>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Rak8fx&theme=tokyonight&hide_border=true&background=090d16&ring=00f2fe&fire=f093fb&currStreakLabel=00f2fe" alt="GitHub Streak" />
+</div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:A855F7,100:0EA5E9&height=120&section=footer" alt="footer"/>
+<br />
+
+<!-- ΕΦΕ ΦΙΔΑΚΙ ΠΟΥ ΤΡΩΕΙ ΤΑ COMMITS -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
+</div>
+
+<hr />
+<div align="center">
+  <b>⚡ Crafted by <a href="https://github.com/Rak8fx">RAK (Rak8fx)</a> ⚡</b>
+</div>

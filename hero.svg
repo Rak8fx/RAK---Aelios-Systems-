@@ -1,0 +1,145 @@
+<svg viewBox="0 0 800 320" width="100%" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Φίλτρο Θολώματος για τα Neon Φώτα -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45" result="blur" />
+    </filter>
+    
+    <!-- Gradient για το Περίγραμμα και το Κείμενο -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#f093fb" />
+    </linearGradient>
+
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Μοτίβο Πλέγματος (Grid) -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .bg { fill: #090d16; }
+    .orb-1 { fill: #00f2fe; animation: float1 8s ease-in-out infinite alternate; }
+    .orb-2 { fill: #ff0844; animation: float2 10s ease-in-out infinite alternate; }
+    .orb-3 { fill: #7928ca; animation: float3 12s ease-in-out infinite alternate; }
+    
+    .glass-card {
+      fill: url(#card-bg);
+      stroke: url(#cyber-grad);
+      stroke-width: 1.5;
+      rx: 20px;
+    }
+
+    .greeting {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 15px;
+      fill: #00f2fe;
+      letter-spacing: 4px;
+      opacity: 0;
+      animation: fadeIn 1s ease-out 0.3s forwards;
+    }
+
+    .name {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 68px;
+      font-weight: 900;
+      letter-spacing: 8px;
+      fill: url(#cyber-grad);
+      opacity: 0;
+      animation: slideUp 1s ease-out 0.6s forwards;
+    }
+
+    .role {
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 19px;
+      font-weight: 500;
+      fill: #94a3b8;
+      opacity: 0;
+      animation: slideUp 1s ease-out 0.9s forwards;
+    }
+
+    .badge-bg {
+      fill: #00f2fe;
+      fill-opacity: 0.1;
+      stroke: #00f2fe;
+      stroke-width: 1;
+      rx: 15px;
+    }
+
+    .status-dot {
+      fill: #00ff88;
+      animation: pulse 2s infinite;
+    }
+
+    .badge-text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+
+    /* Animations */
+    @keyframes float1 { 0% { transform: translate(0, 0); } 100% { transform: translate(120px, 60px); } }
+    @keyframes float2 { 0% { transform: translate(0, 0); } 100% { transform: translate(-100px, -50px); } }
+    @keyframes float3 { 0% { transform: translate(0, 0); } 100% { transform: translate(60px, -70px); } }
+    
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes slideUp { 
+      from { opacity: 0; transform: translateY(15px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+    @keyframes pulse {
+      0% { r: 4px; opacity: 1; }
+      50% { r: 6px; opacity: 0.4; }
+      100% { r: 4px; opacity: 1; }
+    }
+  </style>
+
+  <!-- Φόντο και Grid -->
+  <rect width="800" height="320" rx="24" class="bg" />
+  <rect width="800" height="320" rx="24" fill="url(#grid)" />
+
+  <!-- Κινούμενα Φώτα Neon (Background) -->
+  <g filter="url(#glow)">
+    <circle cx="150" cy="80" r="70" class="orb-1" />
+    <circle cx="650" cy="240" r="80" class="orb-2" />
+    <circle cx="400" cy="160" r="60" class="orb-3" />
+  </g>
+
+  <!-- Κεντρική Γυάλινη Κάρτα (Glassmorphism) -->
+  <rect x="40" y="30" width="720" height="260" class="glass-card" />
+
+  <!-- Κουμπιά Παραθύρου (Mac Style) -->
+  <circle cx="70" cy="55" r="6" fill="#ff5f56" />
+  <circle cx="90" cy="55" r="6" fill="#ffbd2e" />
+  <circle cx="110" cy="55" r="6" fill="#27c93f" />
+  <text x="360" y="59" font-family="monospace" font-size="12" fill="#64748b">rak8fx@github:~</text>
+
+  <!-- ΚΥΡΙΩΣ ΚΕΙΜΕΝΟ (RAK) -->
+  <text x="80" y="105" class="greeting">&gt; SYSTEM.INIT("WELCOME")</text>
+  <text x="78" y="175" class="name">RAK</text>
+  <text x="80" y="212" class="role">🚀 Developer | ⚡ Creator | 💻 Innovator</text>
+  
+  <!-- Status Badge -->
+  <g transform="translate(80, 235)">
+    <rect width="245" height="30" class="badge-bg" />
+    <circle cx="20" cy="15" r="4" class="status-dot" />
+    <text x="35" y="19" class="badge-text">Status: Coding the future</text>
+  </g>
+
+  <!-- Διακοσμητικός Κώδικας Δεξιά (Εξατομικευμένος για τον RAK) -->
+  <g opacity="0.22" transform="translate(540, 85)" font-family="monospace" font-size="13" fill="#00f2fe">
+    <text x="0" y="0">const Rak8fx = {</text>
+    <text x="20" y="22" fill="#f093fb">alias: "RAK",</text>
+    <text x="20" y="44">skills: ["Pro", "Fast"],</text>
+    <text x="20" y="66">coffee: Infinity,</text>
+    <text x="20" y="88">bugs: 0</text>
+    <text x="0" y="110">};</text>
+    <text x="0" y="135" fill="#00ff88">Rak8fx.deploy();</text>
+  </g>
+</svg>
