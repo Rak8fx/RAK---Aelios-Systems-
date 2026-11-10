@@ -30,22 +30,28 @@
 <br />
 <hr />
 
-<h3 align="center">📊 Rak8fx's GitHub Analytics</h3>
+<h3 align="center">📊 Aelios Telemetry</h3>
 
+<!--
+  Οι κάρτες παράγονται από το δικό μας GitHub Action (.github/workflows/analytics.yml),
+  με δεδομένα απευθείας από το GitHub GraphQL API μέσω GITHUB_TOKEN.
+  Μηδενική εξάρτηση από τρίτα image services => μηδενικά rate limits, ποτέ σπασμένες εικόνες.
+  Ανανεώνονται σε κάθε push στο main + καθημερινά 04:23 UTC.
+-->
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rak8fx&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=090d16&title_color=00f2fe&icon_color=f093fb" alt="Rak8fx Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rak8fx&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=090d16&title_color=00f2fe" alt="Top Languages" />
+  <img width="49%" src="./generated/stats.svg" alt="RAK-AeliosSystems stats: commits, repositories, stars, followers, pull requests, issues" />
+  <img width="49%" src="./generated/languages.svg" alt="RAK-AeliosSystems top languages" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Rak8fx&theme=tokyonight&hide_border=true&background=090d16&ring=00f2fe&fire=f093fb&currStreakLabel=00f2fe" alt="GitHub Streak" />
+  <img width="96%" src="./generated/activity.svg" alt="RAK-AeliosSystems contribution heatmap and streak telemetry" />
 </div>
 
 <br />
 
-<!-- ΕΦΕ ΦΙΔΑΚΙ ΠΟΥ ΤΡΩΕΙ ΤΑ COMMITS -->
+<!-- ΦΙΔΑΚΙ — το ΔΙΚΟ μας contribution graph, με brand χρώματα, παραγμένο από το Action -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
+  <img src="./generated/github-snake.svg" width="100%" alt="Rak8fx contribution snake animation" />
 </div>
 
 <hr />

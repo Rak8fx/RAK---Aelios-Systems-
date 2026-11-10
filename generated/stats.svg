@@ -1,0 +1,62 @@
+<svg viewBox="0 0 460 232" width="460" height="232" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RAK-AeliosSystems statistics">
+  <title>RAK-AeliosSystems statistics</title>
+
+  <defs>
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <style>
+    .bg { fill: #090d16; }
+    .card { fill: url(#card-bg); stroke: url(#cyber-grad); stroke-width: 1.2; rx: 16px; }
+    .ttl { font-family: 'Fira Code','Courier New',monospace; font-size: 12px; fill: #00f2fe;
+           letter-spacing: 3px; }
+    .lbl { font-family: 'Fira Code','Courier New',monospace; font-size: 10px; fill: #64748b;
+           letter-spacing: 1.5px; }
+    .val { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif; font-size: 27px;
+           font-weight: 800; fill: url(#cyber-grad); }
+    .val-g { font-family: 'Segoe UI',sans-serif; font-size: 27px; font-weight: 800; fill: #00ff88; }
+    .tiny { font-family: 'Fira Code','Courier New',monospace; font-size: 9px; fill: #64748b;
+            letter-spacing: 1px; }
+    .dot { fill: #00ff88; animation: pulse 2s infinite; }
+    .fade { opacity: 0; animation: fadeIn .8s ease-out .15s forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes pulse { 0%{r:3px;opacity:1} 50%{r:5px;opacity:.35} 100%{r:3px;opacity:1} }
+    @keyframes scan { 0%{transform:translateX(0)} 100%{transform:translateX(300px)} }
+    .scan { animation: scan 3s linear infinite; }
+  </style>
+  <rect width="460" height="232" rx="20" class="bg"/>
+  <rect width="460" height="232" rx="20" fill="url(#grid)"/>
+  <g filter="url(#soft)" opacity="0.55"><circle cx="90" cy="60" r="46" fill="#00f2fe"/><circle cx="390" cy="190" r="52" fill="#f093fb"/></g>
+  <rect x="12" y="12" width="436" height="208" class="card"/>
+  <circle cx="32" cy="42" r="3" class="dot"/>
+  <text x="44" y="46" class="ttl">AELIOS // STATS</text>
+  <text x="428" y="46" class="tiny" text-anchor="end">@Rak8fx · 2026-11-10 15:56 UTC</text>
+  <rect x="32" y="56" width="396" height="1" fill="url(#cyber-grad)" opacity="0.35"/>
+
+  <text x="34" y="80" class="lbl">COMMITS</text>
+  <text x="34" y="104" class="val">11</text>
+  <text x="242" y="80" class="lbl">REPOSITORIES</text>
+  <text x="242" y="104" class="val">1</text>
+  <text x="34" y="126" class="lbl">STARS EARNED</text>
+  <text x="34" y="150" class="val">0</text>
+  <text x="242" y="126" class="lbl">FOLLOWERS</text>
+  <text x="242" y="150" class="val">0</text>
+  <text x="34" y="172" class="lbl">PULL REQUESTS</text>
+  <text x="34" y="196" class="val">1</text>
+  <text x="242" y="172" class="lbl">ISSUES</text>
+  <text x="242" y="196" class="val">0</text>
+  <text x="34" y="206" class="tiny">SRC: GITHUB GRAPHQL · TOKEN-AUTHENTICATED · NO RATE LIMIT</text>
+</svg>
