@@ -1,13 +1,13 @@
 <div align="center">
   <!-- ΤΟ CUSTOM ANIMATED SVG BANNER ΤΟΥ RAK -->
-  <img src="./hero.svg" alt="RAK Hero Banner" width="100%" />
+  <img src="./hero.svg" alt="RAK-AeliosSystems Hero Banner" width="100%" />
 </div>
 
 <br />
 
 <!-- ΕΦΕ ΠΛΗΚΤΡΟΛΟΓΗΣΗΣ (TYPING ANIMATION) -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=Welcome+to+RAK's+Digital+Space+%F0%9F%9A%80;Turning+complex+problems+into+clean+code;Always+learning%2C+always+building+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F2FE&center=true&vCenter=true&width=600&lines=RAK-AeliosSystems+%F0%9F%9A%80;Welcome+to+my+Digital+Space;Turning+complex+problems+into+clean+code;Always+learning%2C+always+building+%E2%9A%A1" alt="Typing SVG" />
 </div>
 
 <!-- BADGES & VIEWS -->
@@ -50,5 +50,5 @@
 
 <hr />
 <div align="center">
-  <b>⚡ Crafted by <a href="https://github.com/Rak8fx">RAK (Rak8fx)</a> ⚡</b>
+  <b>⚡ RAK — Aelios Systems · <a href="https://github.com/Rak8fx">@Rak8fx</a> ⚡</b>
 </div>
