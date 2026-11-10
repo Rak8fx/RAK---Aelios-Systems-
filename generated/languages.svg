@@ -1,0 +1,54 @@
+<svg viewBox="0 0 460 232" width="460" height="232" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RAK-AeliosSystems languages">
+  <title>RAK-AeliosSystems languages</title>
+
+  <defs>
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M 26 0 L 0 0 0 26" fill="none" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <style>
+    .bg { fill: #090d16; }
+    .card { fill: url(#card-bg); stroke: url(#cyber-grad); stroke-width: 1.2; rx: 16px; }
+    .ttl { font-family: 'Fira Code','Courier New',monospace; font-size: 12px; fill: #00f2fe;
+           letter-spacing: 3px; }
+    .lbl { font-family: 'Fira Code','Courier New',monospace; font-size: 10px; fill: #64748b;
+           letter-spacing: 1.5px; }
+    .val { font-family: 'Segoe UI',-apple-system,BlinkMacSystemFont,sans-serif; font-size: 27px;
+           font-weight: 800; fill: url(#cyber-grad); }
+    .val-g { font-family: 'Segoe UI',sans-serif; font-size: 27px; font-weight: 800; fill: #00ff88; }
+    .tiny { font-family: 'Fira Code','Courier New',monospace; font-size: 9px; fill: #64748b;
+            letter-spacing: 1px; }
+    .dot { fill: #00ff88; animation: pulse 2s infinite; }
+    .fade { opacity: 0; animation: fadeIn .8s ease-out .15s forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes pulse { 0%{r:3px;opacity:1} 50%{r:5px;opacity:.35} 100%{r:3px;opacity:1} }
+    @keyframes scan { 0%{transform:translateX(0)} 100%{transform:translateX(300px)} }
+    .scan { animation: scan 3s linear infinite; }
+  </style>
+  <rect width="460" height="232" rx="20" class="bg"/>
+  <rect width="460" height="232" rx="20" fill="url(#grid)"/>
+  <g filter="url(#soft)" opacity="0.55"><circle cx="380" cy="70" r="48" fill="#4facfe"/><circle cx="80" cy="185" r="44" fill="#f093fb"/></g>
+  <rect x="12" y="12" width="436" height="208" class="card"/>
+  <circle cx="32" cy="42" r="3" class="dot"/>
+  <text x="44" y="46" class="ttl">AELIOS // LANGUAGES</text>
+  <text x="428" y="46" class="tiny" text-anchor="end">0 detected · 2026-11-10 15:56 UTC</text>
+  <rect x="32" y="56" width="396" height="1" fill="url(#cyber-grad)" opacity="0.35"/>
+
+  <text x="230" y="118" class="val" text-anchor="middle">NO SIGNAL</text>
+  <text x="230" y="144" class="lbl" text-anchor="middle">AWAITING FIRST CODE DROP</text>
+  <rect x="60" y="160" width="340" height="2" rx="1" fill="#00f2fe" opacity="0.18"/>
+  <g class="scan"><rect x="60" y="158" width="60" height="6" rx="3" fill="#00f2fe" opacity="0.75"/></g>
+  <text x="230" y="190" class="tiny" text-anchor="middle">LINGUIST RETURNS {} — MARKDOWN + SVG ARE NOT COUNTED</text>
+</svg>
